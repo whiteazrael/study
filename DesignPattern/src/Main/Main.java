@@ -9,5 +9,7 @@ public class Main {
 		BuilderPattern builderPattern = new BuilderPattern.Builder().a(1).b(2).c(3).d(4).build();
 		
 		Avengers shield = new Shield();
+		shield.executeMission();
+		shield.rest();
 	}
 }
