@@ -10,5 +10,6 @@ public class Main {
 		
 		Avengers shield = new Shield();
 		shield.executeMission();
+		shield.rest();
 	}
 }
